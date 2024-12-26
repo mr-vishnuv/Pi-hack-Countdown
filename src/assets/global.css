@@ -1,0 +1,64 @@
+/* Global Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #2b003a; /* Dark violet background */
+    color: #e0b3ff; /* Soft violet text */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Utility Classes */
+  .hidden {
+    display: none;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Timer Styles */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+  
+  .timer {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background: rgba(188, 24, 230, 0.767); /* Glow violet */
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(188, 24, 230, 0.767); /* Glow effect */
+    text-align: center;
+  }
+  
+  span {
+    width: 3rem;
+    display: inline-block;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    .timer {
+      font-size: 2rem;
+    }
+  }
+  
